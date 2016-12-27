@@ -47,6 +47,8 @@ class SortLinkedList(object):
         
         return slow 
 
+## Below is used for testing purpose
+"""
 head = ListNode(3)
 head.next = ListNode(4)
 head.next.next = ListNode(5)
@@ -58,3 +60,4 @@ b = a.sort(head)
 while (b != None):
     print(b.val)
     b = b.next 
+"""
