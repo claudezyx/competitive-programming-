@@ -22,7 +22,9 @@ class QuickSort():
     self.partition(array, pivot+1, end)
     
     return array 
-
+## For testing purpose 
+"""
 a = QuickSort()
 b = a.QSort([3,5,10,4,8,11,7],2,3)
 print(b)
+"""
