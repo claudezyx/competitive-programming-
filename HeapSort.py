@@ -31,7 +31,9 @@ class Solution():
       array[:last] = self.ConstructHeap(array[:last]) 
       last -= 1 
     return array
-    
+## For testing purpose
+""" 
 a = Solution()
 b = [4,2,3,0,10]
 print(a.HeapSort(b))
+"""
