@@ -19,3 +19,12 @@ i = n/2, inner loops run n/2 times
 i = n/4, inner loops run n/4 times 
 ...
 In total, n + n/2 + n/4 + ... = 2n 
+
+
+What about this one? 
+
+for (int i = 0; i < N; ++i) {
+  for (int j = 1; j <= i; j *= 2) { 
+    ;
+  }
+}
