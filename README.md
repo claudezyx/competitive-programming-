@@ -1,6 +1,7 @@
 # competitive-programming-
 Time Complexity Analysis 
 consider following code in c 
+
 int make_magic(int n) {
   int t = 0;
   for (int x=1; x<n; x*=2){
@@ -9,6 +10,7 @@ int make_magic(int n) {
     }
   }
 }
+
 Analysis: 
 The run time is O(n)
 Basically, 
