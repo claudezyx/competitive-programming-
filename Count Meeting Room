@@ -1,0 +1,10 @@
+Question: You have been given log files data of a company for the past 5 year which contains information 
+about meetings that happened in the company. The log file has the following format meetingid : starttime,
+endtime where starttime and endtime are unix timestamps. Figure out how many meeting rooms must exist
+at the company for this data to be accurate.
+
+Assume each meeting is represented by a tuple (meetingID, startTime, endTime), and the list of tuples is sorted
+based on the startTime. 
+
+def countRoom(list):
+  
