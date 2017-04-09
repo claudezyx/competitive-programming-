@@ -1,8 +1,4 @@
 """
-https://en.wikipedia.org/wiki/Reservoir_sampling
-"""
-
-"""
 Return only one index of the max number with equal chance 
 [1, 2, 3, 2, 3]
 In this case, the function should return 2 or 4 with equal chance 
